@@ -46,7 +46,7 @@ public class Module2_2 {
             this.composition = this.composition + flower.getType() + " ";
         }
 
-        public void getFileDescription(){
+        public void getComposition(){
             System.out.println(composition);
         }
     }
