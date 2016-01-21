@@ -17,4 +17,8 @@ public class BaseFile {
     public String getProperty(){
         return "This Class can something";
     }
+
+    public String toString(){
+        return this.type + "Class";
+    }
 }
