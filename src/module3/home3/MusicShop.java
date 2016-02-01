@@ -9,11 +9,11 @@ public class MusicShop {
     private static String itemsForSale = "and you can buy here: ";
 
     public MusicShop(String state) {
-        this.state = state;
+        MusicShop.state = state;
     }
 
     public void setShopState(String state){
-        this.state = state;
+        MusicShop.state = state;
     }
 
 

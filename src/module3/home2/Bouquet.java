@@ -12,7 +12,7 @@ public class Bouquet {
 
 
     public void setBouquet(Flower flower){
-        this.composition = this.composition + flower.getType() + " ";
+        composition = composition + flower.getType() + " ";
     }
 
     public void getComposition(){
