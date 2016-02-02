@@ -16,7 +16,7 @@ class CaesarCryptography {
                 if(Character.isUpperCase(i)){
                     encoder.append((char) ('A' + (i - 'A' + offset) % 26));
                 }else{
-                    encoder.append((char) ('a' + (i - 'A' + offset) % 26));
+                    encoder.append((char) ('a' + (i - 'a' + offset) % 26));
                 }
             }else {
                 encoder.append(i);
